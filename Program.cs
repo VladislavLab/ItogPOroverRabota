@@ -35,5 +35,8 @@ string[] GetArray()
     Console.WriteLine();
 }
 
-
 Console.Clear();
+Console.Clear();
+PrintArray(ResAr);
+string[] array = GetArray();
+PrintArray(array);
