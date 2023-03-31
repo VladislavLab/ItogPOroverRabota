@@ -21,7 +21,7 @@ string[] GetArray()
         else if (ResAr[i].Length <= 3) 
         {
             ResAr1[i] = ResAr[i+1];
-            //i++;
+            i++;
         }           
     } return ResAr1;
     }
