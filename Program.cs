@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+//Написать программу, которая из имеющегося массива строк формирует массив из строк, 
+//длинна которых меньше либо ровна 3 символа. Первоначальный массив можно ввести с клавиатуры,
+// либо задать на старте выполнения алгоритма. При решении не рекомендуется пользоваться коллекциями, 
+//только массивами. Пример: ["hello","2","world",":-)"]->["2","6-)"] 
+//                          ["1234","1567","computer science"]->
+//                          ["-2"] ["Russia","Denmark","Kazan"]
+string[] ResAr = { "hello","2","world",":-)","Wednesday","Thirsday","Friday","Saturday","1234","1567","computer science","-2","Russia","Denmark","Kazan"};
