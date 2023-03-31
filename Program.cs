@@ -26,3 +26,14 @@ string[] GetArray()
     } return ResAr1;
     }
 
+ void PrintArray(string[] inarray) //печать массива
+{
+    for (int i = 0; i < inarray.Length; i++)
+    {
+        Console.Write($" {inarray[i]}");
+    }
+    Console.WriteLine();
+}
+
+
+Console.Clear();
