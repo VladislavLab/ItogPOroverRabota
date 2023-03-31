@@ -6,3 +6,23 @@
 //                          ["1234","1567","computer science"]->
 //                          ["-2"] ["Russia","Denmark","Kazan"]
 string[] ResAr = { "hello","2","world",":-)","Wednesday","Thirsday","Friday","Saturday","1234","1567","computer science","-2","Russia","Denmark","Kazan"};
+
+string[] GetArray()
+{
+    string[] ResAr1 = new string[ResAr.Length];
+
+    for (int i = 0; i < ResAr.Length; i++)
+    {
+        if (ResAr[i].Length > 3) 
+        {
+            ResAr1[i] = ResAr[i];
+        }  
+        
+        else if (ResAr[i].Length <= 3) 
+        {
+            ResAr1[i] = ResAr[i+1];
+            //i++;
+        }           
+    } return ResAr1;
+    }
+
